@@ -1,8 +1,8 @@
 import React from "react";
-import Runner from "../Images/runner.png";
-import Wedding from "../Images/wedding-photography.png";
-import Bike from "../Images/mountain-bike.png";
-import Icon from "../Images/star.png";
+import Runner from "../../Images/runner.png";
+import Wedding from "../../Images/wedding-photography.png";
+import Bike from "../../Images/mountain-bike.png";
+import Icon from "../../Images/star.png";
 import "./OptionCards.css";
 
 export default function OptionCards() {

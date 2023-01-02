@@ -1,5 +1,5 @@
 import Header from "./components/Header/Header";
-import Experiences from "./components/Experiences/Experiences";
+import Hero from "./components/Hero/Hero";
 import OptionCards from "./components/OptionCards/OptionCards";
 import "./App.css";
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <Experiences />
+      <Hero />
       <OptionCards />
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import Logo from "../Images/airbnb.png";
+import Logo from "../../Images/airbnb.png";
 
 export default function Header() {
   return (

@@ -4,7 +4,7 @@
 }
 
 .group-pictures {
-  width: 39.591rem;
+  max-width: 39.591rem;
 }
 
 .info > h1 {
