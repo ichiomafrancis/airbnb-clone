@@ -1,0 +1,60 @@
+.option-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+  margin-left: 3.7rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 17.6rem;
+  margin-bottom: 3rem;
+  gap: 0.8rem;
+  position: relative;
+}
+
+.pictures {
+  height: 23.5rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.icon {
+  width: 1.4rem;
+  margin-right: 0.2rem;
+}
+
+.absolute {
+  position: absolute;
+  font-weight: 400;
+  font-size: 1.024rem;
+  line-height: 1.1;
+  text-align: center;
+  color: #222222;
+  padding: 0.4rem 0.6rem;
+  background-color: #fff;
+  top: 0.7rem;
+  left: 0.7rem;
+}
+
+.options > p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.1;
+  color: #222222;
+}
+
+.dim {
+  color: #918e9b;
+}
+
+.bold {
+  font-weight: 600;
+}

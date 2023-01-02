@@ -1,0 +1,24 @@
+.group {
+  margin: 0rem 7.7rem;
+  margin-bottom: 3.2rem;
+}
+
+.group-pictures {
+  width: 39.591rem;
+}
+
+.info > h1 {
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 1.1;
+  color: #000000;
+  margin: 0rem 16.7rem 1.6rem 3.6rem;
+}
+
+.info > p {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.1;
+  color: #222222;
+  margin: 0rem 19.4rem 4.9rem 3.6rem;
+}

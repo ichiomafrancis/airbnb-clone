@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: #fff;
+  position: relative;
+  width: 55rem;
+  border-radius: 0.895rem;
+  margin: 5rem auto;
+  position: relative;
+}

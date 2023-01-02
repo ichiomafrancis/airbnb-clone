@@ -1,10 +1,14 @@
-
-import './App.css';
+import Header from "./components/Header/Header";
+import Experiences from "./components/Experiences/Experiences";
+import OptionCards from "./components/OptionCards/OptionCards";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
- 
+    <div className="app">
+      <Header />
+      <Experiences />
+      <OptionCards />
     </div>
   );
 }
