@@ -12,3 +12,12 @@
   margin: 5rem auto;
   position: relative;
 }
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  overflow-x: auto;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
