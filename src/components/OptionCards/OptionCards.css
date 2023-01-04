@@ -1,11 +1,3 @@
-.option-cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.8rem;
-  margin-left: 3.7rem;
-}
-
 .options {
   display: flex;
   flex-direction: column;
@@ -31,19 +23,6 @@
   margin-right: 0.2rem;
 }
 
-.absolute {
-  position: absolute;
-  font-weight: 400;
-  font-size: 1.024rem;
-  line-height: 1.1;
-  text-align: center;
-  color: #222222;
-  padding: 0.4rem 0.6rem;
-  background-color: #fff;
-  top: 0.7rem;
-  left: 0.7rem;
-}
-
 .options > p {
   font-weight: 300;
   font-size: 12px;
@@ -57,4 +36,17 @@
 
 .bold {
   font-weight: 600;
+}
+
+.absolute {
+  position: absolute;
+  font-weight: 400;
+  font-size: 1.024rem;
+  line-height: 1.1;
+  text-align: center;
+  color: #222222;
+  padding: 0.4rem 0.6rem;
+  background-color: #fff;
+  top: 0.7rem;
+  left: 0.7rem;
 }

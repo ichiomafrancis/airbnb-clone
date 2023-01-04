@@ -7,9 +7,3 @@
 .header > img {
   padding: 2.2rem 0 2.2rem 3rem;
 }
-
-.header > h3 {
-  position: absolute;
-  top: -1.8rem;
-  color: rgb(89, 89, 240);
-}

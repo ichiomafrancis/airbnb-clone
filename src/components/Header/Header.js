@@ -6,7 +6,6 @@ export default function Header() {
   return (
     <div className="header">
       <img src={Logo} alt="" />
-      <h3>AirBnb Experiences</h3>
     </div>
   );
 }
