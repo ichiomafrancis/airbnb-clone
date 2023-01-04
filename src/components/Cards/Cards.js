@@ -1,11 +1,11 @@
 import React from "react";
 import Img from "../../Images/runner.png";
 import Icon from "../../Images/star.png";
-import "./OptionCards.css";
+import "./Cards.css";
 
-export default function OptionCards(props) {
+export default function Cards(props) {
   return (
-    <div className="runner options">
+    <div className="runner cards">
       <img className="pictures" src={Img} alt="" />
       <p className="rating">
         <img className="icon" src={Icon} alt="" />

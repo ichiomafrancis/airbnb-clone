@@ -1,13 +1,13 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
-import OptionCards from "./components/OptionCards/OptionCards";
+import Cards from "./components/Cards/Cards";
 import data from "./Data";
 import "./App.css";
 
 function App() {
   const cards = data.map((item) => {
     return (
-      <OptionCards
+      <Cards
         key={item.id}
         img={item.coverImg}
         rating={item.stats.rating}
