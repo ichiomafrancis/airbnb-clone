@@ -1,14 +1,16 @@
 import React from "react";
-import Img from "../../Images/runner.png";
-import Icon from "../../Images/star.png";
 import "./Cards.css";
 
 export default function Cards(props) {
   return (
     <div className="runner cards">
-      <img className="pictures" src={Img} alt="" />
+      <img
+        className="pictures"
+        src={require("../../Images/runner.png")}
+        alt=""
+      />
       <p className="rating">
-        <img className="icon" src={Icon} alt="" />
+        <img className="icon" src={require("../../Images/star.png")} alt="" />
         {props.rating}
         <span className="dim">
           {" "}
