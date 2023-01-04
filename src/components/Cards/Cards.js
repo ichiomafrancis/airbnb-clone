@@ -6,7 +6,7 @@ export default function Cards(props) {
     <div className="runner cards">
       <img
         className="pictures"
-        src={require("../../Images/runner.png")}
+        src={require("../../Images/katie-zaferes.png")}
         alt=""
       />
       <p className="rating">
